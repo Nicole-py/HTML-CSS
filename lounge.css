@@ -1,0 +1,115 @@
+body{ 
+    font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+    padding: 20px 20px 20px 20px;
+    margin: 20px;
+} /*this rule selects all the text inside th body*/
+
+#guarantee {
+    border-color: white;
+    border-width: 1px;
+    border-style: dashed;
+    background-color: #a7cece;
+    padding: 25px;
+    padding-left: 80px;
+    margin: 30px;
+    margin-right: 280px;
+    line-height: 1.9em;
+    font-style: italic;
+    color: #444444;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#elixirs {
+    border: thin solid #007e7e ;
+
+    width: 200px;
+
+    padding: 20px;
+
+    margin: 0px 20px;
+    
+    text-align: center;
+
+    background: white url(images/cocktail.gif) repeat-x;
+
+    line-height: 1;
+
+    float: right;
+
+}
+
+#elixirs h2{
+    color: black;
+}
+
+#elixirs h3{
+    color: #d12c47;
+}
+
+
+h1, h2 { color: #007e7e; } /*this rule selects the h1 and h2 heading to make the color gray*/
+
+h1 { 
+    font-size: 150%;
+    border-bottom: 1px solid black;
+ } /*this rule selects h1 to have a solid black border at th bottom.*/
+
+h2 {
+    font-size: 130%;
+}
+
+p { color: black; } /*this rule selects all paragraph and turn all text to maroon.*/
+
+em { font-family: serif; } /*this rule specifies that the <em> element's will be serif.*/
+
+p.blueberry { color: purple; } /*this rule selects the  blueberry and make it's text purple*/
+
+p.greentea { color: green;} /*this rule selects the class greentea and make it's text green*/
+
+p.raspberry { color: blue; } /*this rule selects the  raspberry and make it's text blue*/
+
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+#footer{
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+
+#elixirs a:link {
+    color: #007e7e;
+}
+
+#elixirs a:visited {
+    color: #333333;
+}
+
+#elixirs a:hover {
+    background: #f88396;
+    color: #0d5353;
+}
+
+a:link{
+    color: #007e7e;
+}
+
+a:visited{
+    color: #333333;
+}
+
+a:hover{
+    background: #f88396;
+    color: #0d5353;
+}
+
